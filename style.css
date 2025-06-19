@@ -1,0 +1,140 @@
+body{
+    background: rgb(228, 238, 248);
+    font-family: "Karla", sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin: 20px 50px;
+}
+
+#logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo-container i{
+    color: #3C8AEF;
+    margin-left: 30px;
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+#logo-container p{
+    font-size: 25px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    margin:20px 30px 0 0;
+    font-size: 18px;
+    padding-top:8px ;
+    padding-left: 0px;
+}
+
+#start-btn{
+    color: #3C8AEF;
+    border-color: #3C8AEF;
+    background : transparent;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    margin: 20px 0 0 50px;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+#main-content h6{
+    font-size: 20px;
+    color: #838790;
+    max-width: 66vh;
+    text-align: center;
+    margin: 25px;
+    line-height: 30px;
+}
+
+#main-content h1{
+    font-size: 65px;
+    max-width: 80vh;
+    text-align: center;
+    margin: 0px;
+    line-height: 70px;
+}
+
+#subscribe-container input{
+    padding: 18px 30px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+#subscribe-container button{
+    padding: 18px 60px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #FA593D;
+    border-radius: 2px;
+}
+
+#main-content p{
+    color: #838790;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 15vh;
+}
+
+#card{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    max-width: 400px;
+}
+
+#card i{
+    font-size: 35px;
+    color: #3C8AEF;
+    padding: 20px;
+}
+
+#card-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#card-content h1{
+    font-size: 23px;
+    margin: 0px;
+}
+
+#card-content p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #838790;
+}
+
